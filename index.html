@@ -71,5 +71,15 @@
         <p>&copy; 2025 Jobringer. All rights reserved.</p>
       </div>
     </footer>
+
+    <script>
+      // Mobile nav toggle
+      const toggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector(".nav-links");
+
+      toggle.addEventListener("click", () => {
+        nav.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
