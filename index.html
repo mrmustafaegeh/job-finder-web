@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobringer - Jobs</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">Jobringer</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="login-btn"><a href="login.html">Login</a></button>
+      </div>
+      <button class="menu-toggle">☰</button>
+    </header>
+
+    <main>
+      <section class="job-page-layout container">
+        <!-- Sidebar -->
+        <aside class="job-filter-sidebar">
+          <h3>Filter Jobs:</h3>
+          <input type="text" placeholder="Search keyword..." />
+          <select>
+            <option value="">All Categories</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="marketing">Marketing</option>
+          </select>
+          <select>
+            <option value="">All Locations</option>
+            <option value="remote">Remote</option>
+            <option value="riyadh">Riyadh</option>
+            <option value="jeddah">Jeddah</option>
+          </select>
+          <select>
+            <option value="">Job Type</option>
+            <option value="fulltime">Full-Time</option>
+            <option value="parttime">Part-Time</option>
+            <option value="freelance">Freelance</option>
+          </select>
+          <button class="filter-btn">Apply Filters</button>
+        </aside>
+
+        <!-- Job Search Area -->
+        <div class="job-search-content">
+          <h2>Find Your Dream Job</h2>
+          <p>Explore thousands of job opportunities from top companies.</p>
+          <form class="search-form">
+            <input type="text" placeholder="Job title or keyword" />
+            <input type="text" placeholder="Location" />
+            <select>
+              <option value="salary">0-3 Lacs</option>
+              <option value="salary">3-6 Lacs</option>
+              <option value="salary">6-9 Lacs</option>
+            </select>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Jobringer. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
