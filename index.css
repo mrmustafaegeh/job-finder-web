@@ -416,3 +416,11 @@ footer {
 .social-links a:hover img {
   transform: scale(1.2);
 }
+
+/* alert messages */
+
+.confirmation-message {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
