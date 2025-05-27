@@ -4,12 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <title>Jobs page</title>
   </head>
   <body class="login-page">
     <header>
-      <div class="container">
-        <h1 class="logo">Jobringer</h1>
+      <div class="container nav-container">
+        <h1 class="logo">
+          <a href="./index.html"
+            ><i class="fas fa-briefcase tilted-icon"></i> ringer</a
+          >
+        </h1>
         <nav>
           <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
@@ -17,32 +25,63 @@
             <li><a href="contacts.html">Contact</a></li>
           </ul>
         </nav>
-        <button class="menu-toggle">☰</button>
+        <button class="login-btn"><a href="login.html">Login</a></button>
       </div>
+      <button class="menu-toggle">☰</button>
     </header>
+
     <main>
       <section class="job-listings container">
         <h2>Latest Job Openings:</h2>
-
         <div class="job-card">
-          <h3>Junior Frontend Developer</h3>
-          <p>Company: Tech Solutions</p>
-          <p>Location: Remote</p>
-          <button class="apply-btn">Apply Now</button>
+          <img src="company logos/tec1.jpeg" alt="Logo" class="company-logo" />
+          <div class="job-details">
+            <h3>Junior Frontend Developer</h3>
+            <p>Company: Tech Solutions</p>
+            <p>Location: Remote</p>
+            <p><strong>Type:</strong> Full-time</p>
+            <p><strong>Experience:</strong> Entry Level</p>
+            <p><strong>Posted:</strong> May 27, 2025</p>
+            <p class="job-desc">
+              Work with a dynamic team to build responsive web apps using React.
+            </p>
+
+            <button class="apply-btn">Apply Now</button>
+          </div>
         </div>
 
         <div class="job-card">
-          <h3>React Developer</h3>
-          <p>Company: DevWorks</p>
-          <p>Location: Istanbul</p>
-          <button class="apply-btn">Apply Now</button>
+          <img src="company logos/tec2.jpeg" alt="Logo" class="company-logo" />
+          <div class="job-details">
+            <h3>React Developer</h3>
+            <p>Company: DevWorks</p>
+            <p>Location: Istanbul</p>
+            <p><strong>Type:</strong> Full-time</p>
+            <p><strong>Experience:</strong> Entry Level</p>
+            <p><strong>Posted:</strong> May 27, 2025</p>
+            <p class="job-desc">
+              Work with a dynamic team to build responsive web apps using React.
+            </p>
+
+            <button class="apply-btn">Apply Now</button>
+          </div>
         </div>
 
         <div class="job-card">
-          <h3>UI/UX Designer</h3>
-          <p>Company: Creative Minds</p>
-          <p>Location: Hybrid</p>
-          <button class="apply-btn">Apply Now</button>
+          <img src="/company logos/tec3.jpg" alt="Logo" class="company-logo" />
+          <div class="job-details">
+            <h3>UI/UX Designer</h3>
+            <p>Company: Creative Minds</p>
+            <p>Location: Hybrid</p>
+            <p><strong>Type:</strong> Full-time</p>
+            <p><strong>Experience:</strong> Entry Level</p>
+            <p><strong>Posted:</strong> May 27, 2025</p>
+            <p class="job-desc">
+              Work with a dynamic team to build responsive web apps using React.
+            </p>
+
+            <button class="apply-btn">Apply Now</button>
+          </div>
         </div>
       </section>
     </main>

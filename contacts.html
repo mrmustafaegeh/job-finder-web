@@ -3,13 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="index.css" />
-    <title>Contacts</title>
+    <title>Contact</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <h1 class="logo">Jobringer</h1>
+      <div class="container nav-container">
+        <h1 class="logo">
+          <a href="./index.html"
+            ><i class="fas fa-briefcase tilted-icon"></i> ringer</a
+          >
+        </h1>
         <nav>
           <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
@@ -17,18 +29,34 @@
             <li><a href="contacts.html">Contact</a></li>
           </ul>
         </nav>
-        <button class="menu-toggle">☰</button>
+        <button class="login-btn"><a href="login.html">Login</a></button>
       </div>
+      <button class="menu-toggle">☰</button>
     </header>
 
     <main>
-      <section>
-        <div class="contact-info">
-          <p><strong>Email:</strong> Mr.mustafaegeh@gmail.com</p>
-          <p><strong>Phone:</strong> (+90)533 888 64 99</p>
+      <section class="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
           <p>
-            <strong>Address:</strong> Salamis Street, Famagusta, Northren Cyprus
+            We’d love to hear from you! Reach out via any of the methods below.
           </p>
+
+          <div class="contact-info">
+            <p><strong>Email:</strong> Mr.mustafaegeh@gmail.com</p>
+            <p><strong>Phone:</strong> (+90) 533 888 64 99</p>
+            <p>
+              <strong>Address:</strong> Salamis Street, Famagusta, Northern
+              Cyprus
+            </p>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href=""><img src="./icons/instagram.png" alt="myacc" /></a>
+          <a href=""><img src="./icons/linkedin.png" alt="myacc" /></a>
+          <a href=""><img src="./icons/x.png" alt="myacc" /></a>
+          <a href=""><img src="./icons/youtube.png" alt="myacc" /></a>
         </div>
       </section>
     </main>
