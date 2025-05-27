@@ -70,11 +70,17 @@ header {
   margin: 0;
 }
 
+
 .nav-links a {
-  margin: 20px;
+  padding: 8px 12px;
   text-decoration: none;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  background-color: #005bb5;
+  color: #0073e6;
 }
 
 /* Login Button */
